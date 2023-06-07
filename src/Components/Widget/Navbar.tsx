@@ -1,11 +1,12 @@
 import React, {useState} from 'react'
 
 const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
-  const handleMenuToggle = () => {
+  const handleMenuToggle = (): void => {
     setIsMenuOpen(!isMenuOpen);
-  }
+  };
+
   return (
     <>
       <nav className={`header ${isMenuOpen ? 'header--open' : ''}`}>
