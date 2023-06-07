@@ -1,14 +1,25 @@
 /*Base*/
 @import "./Base/Mixin.scss";
 @import "./Base/Variable.scss";
+@import "./Base/reset.scss";
 
 /*Components*/
-@import "./Components/Widget/Navbar.scss";
 @import "./Components/HomePage.scss";
 @import "./Components/AboutMePage.scss";
+
+/*Widget*/
+@import "./Components/Widget/Navbar.scss";
 @import "./Components/Widget/Footer.scss";
 
 /*Mobile*/
 @import "./Mobile/480px.scss";
-/**/
-/**/
+// @import "./Mobile/768px.scss";
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: $BgColor;
+    color: $TxtColor;
+}
