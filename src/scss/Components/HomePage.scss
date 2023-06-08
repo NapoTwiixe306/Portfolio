@@ -1,0 +1,18 @@
+@import "../Base/Mixin.scss";
+@import "../Base/Variable.scss";
+
+.home{
+    min-width: 100%;
+    height: 100vh;
+    
+    flex-direction: column;
+    h1{
+        font-size: 80px;
+        width: 100%;
+    }
+
+    img{
+        width: 30%;
+        border-radius: 20px;
+    }
+}

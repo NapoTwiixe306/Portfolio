@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
 
+//ADD LOGO SOCIAL IN NAVBAR
+
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
