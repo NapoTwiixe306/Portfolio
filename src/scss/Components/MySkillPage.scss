@@ -1,0 +1,10 @@
+@import "../Base/Mixin.scss";
+@import "../Base/Variable.scss";
+
+.skill{
+    @include Center();
+    height: 100vh;
+    background-color: white;
+    color: black;
+    
+}

@@ -1,12 +1,14 @@
 import React from 'react';
-import { HomePage, AboutMePage } from './Components';
+import { HomePage, MySkillPage, AboutMe,Contact  } from './Components';
 import './scss/style.scss';
 
 function App() {
   return (
    <>
       <HomePage/>
-      <AboutMePage/>
+      <MySkillPage/>
+      <AboutMe/>
+      <Contact/>
    </>
   );
 }

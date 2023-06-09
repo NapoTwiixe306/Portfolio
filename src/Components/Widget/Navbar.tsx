@@ -22,8 +22,8 @@ const Navbar = () => {
           </a>
         </li>
         <li className="header__navigation-item">
-          <a href="#Dashboard" rel="noopener noreferrer" className="header__navigation-link">
-            About Me
+          <a href="#MySkill" rel="noopener noreferrer" className="header__navigation-link">
+            My Skill
           </a>
         </li>
         <li className="header__navigation-item">
