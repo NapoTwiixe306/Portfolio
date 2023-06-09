@@ -1,11 +1,12 @@
 import React from 'react'
-
+import { Footer } from './Widget'
 const ContactPage = () => {
   return (
     <>
     <div id="contact"/>
     <div className='contact-container'>
-        <div className="contact">        
+        <h1>Contact</h1>
+        <div className="contact"> 
             <form  className="contact-form">
                 <div className="form-group">
                     <label htmlFor="name" className='form-label'>Nom : </label>
@@ -37,6 +38,7 @@ const ContactPage = () => {
             </form>
         </div>
     </div>
+    <Footer/>
     </>
   )
 }

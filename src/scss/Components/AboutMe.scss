@@ -3,21 +3,22 @@
 
 .about{
     height: 100vh;
-    background-color: rgb(35, 83, 122);
     @include Center();
+    // background-color: red;
     flex-direction: column;
 
     h1{
         position: relative;
-        top: -25px;
+        left: 10px;
         font-size: 70px;
-
         span{
             color: red;
         }
     }
 
     p{
+        position: relative;
+        top: 80px;
         font-size: 25px;
         width: 90%;
         text-align: center;
