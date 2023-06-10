@@ -1,0 +1,42 @@
+@import "../../Base/Variable.scss";
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-color: red;
+
+
+    &__text {
+        margin-right: 10px;
+        font-size: 15px;
+    }
+
+    &__link {
+        color: #000;
+        text-decoration: none;
+        margin: 0 5px;
+
+        &--github,
+        &--google,
+        &--instagram {
+            transition: color 0.3s;
+
+            &:hover {
+                color: #333;
+            }
+        }
+    }
+
+    &__icon {
+        &--github,
+        &--google,
+        &--instagram {
+            color: $TxtColor;
+            transition: all .3s;
+            &:hover{
+                color: $FirstColor;
+            };
+
+        }
+    }
+}

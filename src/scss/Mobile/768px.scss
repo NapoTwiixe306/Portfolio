@@ -88,7 +88,7 @@
         }
 
         img{
-          width: 60%;
+          width: 50%;
           border-radius: 15px;
           position: relative;
           left: 150px;
@@ -96,7 +96,15 @@
         }
     }
 
+    .contact-container{
+      h1{
+        text-align: center;
+        position: relative;
+        top: 150px;
+        font-size: 75px;
+      }
     .contact{
+      
       @include Center();
       height: 100vh;
       // background-color: rgb(70, 26, 153);
@@ -116,18 +124,21 @@
         }
       
         .form-label{
+          position: relative;
+          right: 50px;
           margin-bottom: 0.5rem;
           font-weight: bold;
         }
       
         .form-control{
           display: block;
-          width: 100%;
+          width: 150%;
           padding: 0.5rem;
           font-size: 1rem;
           height: 55px;
-          // border: 2px solid red;
           border: none;
+          position: relative;
+          right: 50px;
           border-radius: 10px;
           background-color: #f8f8f8b2;
           transition: border-color 0.3s ease;
@@ -139,8 +150,10 @@
         }
       
         textarea  {
-          width: 100%;
+          width: 150%;
           height: 150px;
+          position: relative;
+          right: 50px;
           padding: 15px 20px;
           box-sizing: border-box;
           // border: 2px solid #ccc;
@@ -159,6 +172,8 @@
           padding: 10px 15px;
           width: 150px;
           height: 50px;
+          position: relative;
+          right: 50px;
           font-size: 1rem;
           font-weight: bold;
           color: rgb(32, 32, 32);
@@ -174,7 +189,7 @@
           }
       
         }
-      
-  }
-  }
+      }
+   }
+}
   
